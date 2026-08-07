@@ -1,0 +1,32 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Audio files (exclude all except test)
+*.mp3
+*.mp4
+*.wav
+!test_audio.mp3
+
+# Large binary files
+*.npy
+
+# Temp / batch output
+batch_*.txt
+remaining.txt
+last10.txt
+unmatched_*.txt
+*.log
+
+# Speaker profiles (voice biometrics — private)
+speaker_profiles/
+
+# Deploy & misc
+deploy/
+json文件/
+
+# IDE
+.vscode/
+.idea/
